@@ -1,0 +1,157 @@
+                            @import url(https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;800;900&display=swap);
+                            @import url(https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap);
+                            body {
+                                font-family: 'Public Sans', sans-serif;
+                            }
+                            
+                            * {
+                                padding: 0;
+                                margin: 0;
+                                box-sizing: border-box;
+                                font-family: sans-serif;
+                                text-decoration: none;
+                                list-style-type: none;
+                            }
+                            
+                            .container {
+                                width: 85%;
+                                margin: 0 auto;
+                            }
+                            
+                            .flex {
+                                display: flex;
+                                align-items: center;
+                            }
+                            
+                            body {
+                                background: #EDF3F8;
+                                padding-top: 45px;
+                            }
+                            
+                            .justify-between {
+                                justify-content: space-between;
+                                align-items: center;
+                            }
+                            
+                            .nav {
+                                margin: 0 auto;
+                                justify-content: space-between;
+                                gap: 40px;
+                            }
+                            
+                            footer {
+                                background: #1B262F;
+                            }
+                            
+                            .header-nav {
+                                color: #36536B;
+                                font-size: 15px;
+                                font-weight: 700;
+                            }
+                            
+                            .btn {
+                                max-width: 50px;
+                                background: #BA4270;
+                                color: #fff;
+                                padding: 16px 24px;
+                                border-radius: 24px;
+                            }
+                            
+                            header {
+                                margin-bottom: 58px;
+                            }
+                            
+                            h1 {
+                                font-family: 'DM Serif Display', serif;
+                                font-size: 72px;
+                                width: 540px;
+                                color: #36536B;
+                            }
+                            
+                            .section-info {
+                                min-width: 145px;
+                            }
+                            
+                            h3 {
+                                font-family: 'DM Serif Display', serif;
+                                color: #36536B;
+                                font-size: 48px;
+                            }
+                            
+                            .imgkk {
+                                width: 50px;
+                                height: 30px;
+                                display: none;
+                            }
+                            
+                            .cards {
+                                min-width: 50px;
+                            }
+                            
+                            .logo-nav {
+                                gap: 15px;
+                                justify-content: space-between;
+                            }
+                            
+                            @media (max-width:775px) {
+                                .section-info {
+                                    font-size: 20px;
+                                }
+                                .section-code {
+                                    margin: 0 auto;
+                                    width: 450px;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    padding: 20px;
+                                    padding-bottom: 50px;
+                                }
+                                .nav {
+                                    gap: 7px;
+                                }
+                                .main-box {
+                                    flex-direction: column-reverse;
+                                    align-items: center;
+                                }
+                                .btn {
+                                    padding: 12px 15px;
+                                }
+                            }
+                            
+                            @media (max-width: 575px) {
+                                .main-box img {
+                                    width: 300px;
+                                    height: 400px;
+                                }
+                                h1 {
+                                    margin: 0 auto;
+                                    font-size: 40px;
+                                    width: 400px;
+                                }
+                                .ddf {
+                                    transform: translate(-120px);
+                                    width: 600px;
+                                    height: 20px;
+                                }
+                                .imgkk {
+                                    display: initial;
+                                    transform: translate(300px, 20px);
+                                    width: 30px;
+                                    height: 15px;
+                                }
+                                .justify-between {
+                                    flex-direction: column-reverse;
+                                    align-items: center;
+                                }
+                                .nav3 {
+                                    display: none;
+                                }
+                                .logo-nav {
+                                    flex-direction: column;
+                                    align-items: center;
+                                }
+                                .nav {
+                                    gap: 2px;
+                                    flex-direction: column;
+                                    align-items: center;
+                                }
+                            }
